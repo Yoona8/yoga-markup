@@ -1,1 +1,4 @@
 @import "globals/settings.css";
+@import "blocks/logo.css";
+@import "blocks/menu.css";
+@import "blocks/header.css";
