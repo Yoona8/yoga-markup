@@ -1,0 +1,41 @@
+:root {
+  --basic-black: #404040;
+  --basic-white: #FFFFFF;
+  --dark-green: #3F524C;
+  --green: #92AB5A;
+  --light-green: #BECC99;
+  --lightest-green: #C9D5AD;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-width: 1194px;
+  font-size: 16px;
+  line-height: 1.4;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+}
+
+.container {
+  width: 1164px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
