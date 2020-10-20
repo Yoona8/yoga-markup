@@ -24,10 +24,10 @@ body {
   color: var(--basic-black);
   background-color: var(--basic-white);
   background-image: radial-gradient(
-    circle at 5% 10%,
+    circle at 4% 6%,
     var(--green),
-    var(--green) 597px,
-    var(--basic-white) 597px);
+    var(--green) 600px,
+    var(--basic-white) 600px);
   background-repeat: no-repeat;
 }
 
@@ -54,19 +54,9 @@ button {
 @media (min-width: 1220px) {
   body {
     background-image: radial-gradient(
-      circle at 1% 10%,
+      100% 1400px at 3% 5%,
       var(--green),
-      var(--green) 45%,
-      var(--basic-white) 45%);
-  }
-}
-
-@media (min-width: 1700px) {
-  body {
-    background-image: radial-gradient(
-      circle at 1% 10%,
-      var(--green),
-      var(--green) 47%,
-      var(--basic-white) 47%);
+      var(--green) 50%,
+      var(--basic-white) 50%);
   }
 }
