@@ -6,6 +6,8 @@
   --green: #92AB5A;
   --light-green: #BECC99;
   --lightest-green: #C9D5AD;
+
+  --transition-time: 0.2s;
 }
 
 html,
@@ -22,7 +24,7 @@ body {
   color: var(--basic-black);
   background-color: var(--basic-white);
   background-image: radial-gradient(
-    circle at top left,
+    circle at 5% 10%,
     var(--green),
     var(--green) 597px,
     var(--basic-white) 597px);
@@ -47,4 +49,24 @@ button {
   width: 1164px;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+@media (min-width: 1220px) {
+  body {
+    background-image: radial-gradient(
+      circle at 1% 10%,
+      var(--green),
+      var(--green) 45%,
+      var(--basic-white) 45%);
+  }
+}
+
+@media (min-width: 1700px) {
+  body {
+    background-image: radial-gradient(
+      circle at 1% 10%,
+      var(--green),
+      var(--green) 47%,
+      var(--basic-white) 47%);
+  }
 }

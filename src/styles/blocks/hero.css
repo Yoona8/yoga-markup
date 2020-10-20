@@ -1,0 +1,36 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1fr min-content;
+  color: var(--basic-white);
+}
+
+.hero__content {
+  width: 340px;
+  margin-top: 90px;
+}
+
+.hero__image {
+  width: 660px;
+  margin: -90px 0 0;
+  background-image:
+    radial-gradient(
+      circle,
+      var(--light-green) 225px,
+      transparent 225px
+    ),
+    radial-gradient(
+      circle at right 30px top 120px,
+      var(--light-green) 30px,
+      transparent 30px
+    );
+}
+
+.hero__image img {
+  display: block;
+  width: 660px;
+  height: 743px;
+}
+
+.hero__description {
+  margin: 20px 0 45px;
+}

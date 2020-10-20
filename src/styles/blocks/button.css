@@ -1,0 +1,27 @@
+.button {
+  position: relative;
+  display: inline-block;
+  vertical-align: center;
+  margin: 0 38px 0 0;
+  padding: 14px 45px;
+  font: inherit;
+  background-color: transparent;
+  border: 2px solid currentColor;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.button svg {
+  position: absolute;
+  top: 50%;
+  right: -38px;
+  width: 73px;
+  height: 14px;
+  margin-top: -7px;
+  fill: currentColor;
+  transition: margin-right var(--transition-time);
+}
+
+.button:hover svg {
+  margin-right: -10px;
+}
