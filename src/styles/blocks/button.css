@@ -19,9 +19,9 @@
   height: 14px;
   margin-top: -7px;
   fill: currentColor;
-  transition: margin-right var(--transition-time);
+  transition: transform var(--transition-time);
 }
 
 .button:hover svg {
-  margin-right: -10px;
+  transform: translate(10px);
 }

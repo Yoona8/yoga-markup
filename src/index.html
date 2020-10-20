@@ -24,6 +24,9 @@
   <symbol id="i-arrow-long" viewBox="0 0 73 14">
     <path d="M43 6h25.38l-4.86-4.1L65.2.5 73 7l-7.8 6.5-1.68-1.4L68.38 8H43V6z" /><path d="M0 6h43v2H0V6z"/>
   </symbol>
+  <symbol id="i-arrow-right" viewBox="0 0 7 12">
+    <path d="M1.425 11a.402.402 0 00.3-.136l4.151-4.536a.496.496 0 000-.657l-4.15-4.535a.4.4 0 00-.602 0 .495.495 0 000 .656L4.974 6l-3.85 4.209a.496.496 0 000 .656c.084.09.192.135.301.135z" stroke-width=".7"/>
+  </symbol>
 </svg>
 <header class="header">
   <nav class="header__nav container">
@@ -54,8 +57,8 @@
     </a>
   </nav>
 </header>
-<main class="main">
-  <section class="main__hero hero container">
+<main class="main container">
+  <section class="main__hero hero">
     <div class="hero__content">
       <h1 class="page-title">Pilates studio</h1>
       <p class="hero__description">
@@ -78,7 +81,33 @@
     </p>
   </section>
   <section class="main__about about" id="about">
-    <h2 class="title">About pilates</h2>
+    <div class="about__content">
+      <h2 class="title">About pilates</h2>
+      <p>
+        Pilates combines elements of stretching and power training.
+      </p>
+      <p>
+        Pilates is a form of exercise which concentrates
+        on strengthening the body with an emphasis on core strength.
+        This helps to improve general fitness and overall well-being.
+        Similar to Yoga, Pilates concentrates on posture, balance
+        and flexibility.
+      </p>
+      <a class="link link--more" href="#">
+        Read more
+        <svg width="9" height="14">
+          <use xlink:href="#i-arrow-right"></use>
+        </svg>
+      </a>
+    </div>
+    <p class="about__image">
+      <img
+        width="855"
+        height="630"
+        src="./assets/images/pilates-studio.png"
+        alt="Pilates studio"
+      >
+    </p>
   </section>
   <section class="main__pricing pricing" id="pricing">
     <h2 class="title">Pricing</h2>

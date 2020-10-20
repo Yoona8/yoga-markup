@@ -1,8 +1,11 @@
 @import "globals/settings.css";
 @import "blocks/logo.css";
 @import "blocks/page-title.css";
+@import "blocks/title.css";
+@import "blocks/link.css";
 @import "blocks/button.css";
 @import "blocks/menu.css";
 @import "blocks/header.css";
 @import "blocks/hero.css";
+@import "blocks/about.css";
 @import "blocks/main.css";

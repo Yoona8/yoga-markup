@@ -1,0 +1,35 @@
+.link {
+  color: var(--dark-green);
+  text-decoration: none;
+  transition: color var(--transition-time);
+}
+
+.link:hover {
+  color: var(--green);
+}
+
+.link--more {
+  position: relative;
+  display: inline-block;
+  vertical-align: baseline;
+  padding-right: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.link--more svg {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 9px;
+  height: 14px;
+  margin-top: -8px;
+  stroke: currentColor;
+  fill: currentColor;
+  transition: transform var(--transition-time);
+}
+
+.link--more:hover svg {
+  transform: translate(5px);
+}
