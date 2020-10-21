@@ -1,10 +1,12 @@
 .button {
   position: relative;
   display: inline-block;
-  vertical-align: center;
+  vertical-align: middle;
   margin: 0 38px 0 0;
   padding: 14px 45px;
   font: inherit;
+  text-align: center;
+  text-decoration: none;
   background-color: transparent;
   border: 2px solid currentColor;
   border-radius: 30px;
