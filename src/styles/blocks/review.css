@@ -1,0 +1,33 @@
+.review {
+  padding: 30px 50px 40px;
+  box-shadow: 0 6px 30px 0 var(--opaque-black);
+}
+
+.review__image {
+  width: 150px;
+  height: 150px;
+  margin: 0 0 10px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.review__image img {
+  display: block;
+  width: 150px;
+  height: 150px;
+}
+
+.review__author {
+  margin: 0 0 10px;
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.review__age {
+  display: block;
+  margin-bottom: 25px;
+}
+
+.review__text {
+  margin: 0;
+}
