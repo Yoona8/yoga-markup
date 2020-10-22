@@ -1,4 +1,6 @@
 .logo {
+  display: inline-block;
+  vertical-align: middle;
   width: 63px;
   height: 53px;
 }

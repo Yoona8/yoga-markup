@@ -1,0 +1,27 @@
+.socials {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.socials li:not(:last-child) {
+  margin-right: 15px;
+}
+
+.socials a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 26px;
+  height: 24px;
+}
+
+.socials a:hover {
+  color: var(--lightest-green);
+}
+
+.socials svg {
+  fill: currentColor;
+  transition: var(--transition-time);
+}

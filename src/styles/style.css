@@ -5,6 +5,7 @@
 @import "blocks/link.css";
 @import "blocks/button.css";
 @import "blocks/menu.css";
+@import "blocks/socials.css";
 @import "blocks/header.css";
 @import "blocks/hero.css";
 @import "blocks/about.css";
@@ -12,3 +13,4 @@
 @import "blocks/feedback.css";
 @import "blocks/pricing.css";
 @import "blocks/main.css";
+@import "blocks/footer.css";

@@ -1,0 +1,22 @@
+.footer {
+  padding: 38px 0 39px;
+  color: var(--basic-white);
+  background-color: var(--green);
+}
+
+.footer__inner {
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer__copy {
+  margin: 0;
+  color: var(--opaque-white);
+  letter-spacing: 1px;
+}
+
+.footer__socials {
+  justify-self: end;
+}
