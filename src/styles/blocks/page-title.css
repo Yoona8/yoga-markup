@@ -6,3 +6,9 @@
   text-transform: uppercase;
   letter-spacing: 2px;
 }
+
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 50px;
+  }
+}

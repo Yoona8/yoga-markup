@@ -18,17 +18,16 @@ body {
 }
 
 body {
-  min-width: 1194px;
+  min-width: 320px;
   font-size: 16px;
   line-height: 1.5;
   font-family: Roboto, Arial, sans-serif;
   color: var(--basic-black);
-  background-color: var(--basic-white);
   background-image: radial-gradient(
-    circle at 4% 6%,
+    100% 1300px at 3% 5%,
     var(--green),
-    var(--green) 600px,
-    var(--basic-white) 600px);
+    var(--green) 50%,
+    var(--basic-white) 50%);
   background-repeat: no-repeat;
 }
 
@@ -47,17 +46,34 @@ button {
 }
 
 .container {
-  width: 1164px;
+  max-width: 1164px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
-@media (min-width: 1220px) {
+@media (max-width: 1220px) {
   body {
     background-image: radial-gradient(
-      100% 1400px at 3% 5%,
+      600px 580px at 4% 5%,
       var(--green),
-      var(--green) 50%,
-      var(--basic-white) 50%);
+      var(--green) 600px,
+      var(--basic-white) 600px);
+  }
+}
+
+@media (max-width: 910px) {
+  body {
+    background-image: radial-gradient(
+      500px 400px at 4% 5%,
+      var(--green),
+      var(--green) 600px,
+      var(--basic-white) 600px);
+  }
+}
+
+@media (max-width: 875px) {
+  body {
+    background-color: var(--basic-white);
+    background-image: unset;
   }
 }

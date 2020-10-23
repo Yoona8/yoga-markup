@@ -3,7 +3,7 @@
 }
 
 .main__hero {
-  margin-bottom: 95px;
+  margin-bottom: 120px;
 }
 
 .main__about {
@@ -12,4 +12,42 @@
 
 .main__pricing {
   margin-bottom: 200px;
+}
+
+@media (max-width: 1200px) {
+  .main {
+    margin-bottom: 100px;
+  }
+
+  .main__about {
+    margin-bottom: 95px;
+  }
+
+  .main__pricing {
+    margin-bottom: 140px;
+  }
+}
+
+@media (max-width: 910px) {
+  .main__hero {
+    margin-bottom: 50px;
+  }
+
+  .main__about {
+    margin-bottom: 70px;
+  }
+
+  .main__pricing {
+    margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main {
+    margin-bottom: 40px;
+  }
+
+  .main__pricing {
+    margin-bottom: 60px;
+  }
 }

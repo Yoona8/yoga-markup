@@ -95,3 +95,20 @@
 .feedback__list li {
   display: flex;
 }
+
+@media (max-width: 850px) {
+  .feedback__list {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .feedback__list li:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .feedback::before {
+    content: unset;
+  }
+}

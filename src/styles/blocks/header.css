@@ -30,3 +30,27 @@
 .header__contact:hover {
   text-decoration: underline;
 }
+
+@media (max-width: 875px) {
+  .header {
+    background-color: var(--green);
+  }
+
+  .header__contact {
+    color: var(--opaque-white);
+  }
+}
+
+@media (max-width: 560px) {
+  .header__nav {
+    display: flex;
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .header__contact {
+    display: none;
+  }
+}

@@ -20,3 +20,13 @@
 .footer__socials {
   justify-self: end;
 }
+
+@media (max-width: 570px) {
+  .footer__inner {
+    grid-template-columns: min-content 1fr;
+  }
+
+  .footer__copy {
+    display: none;
+  }
+}

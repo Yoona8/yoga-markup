@@ -31,3 +31,35 @@
 .review__text {
   margin: 0;
 }
+
+@media (max-width: 1100px) {
+  .review {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .review {
+    min-height: auto;
+    padding: 40px;
+  }
+}
+
+@media (max-width: 900px) {
+  .review {
+    padding: 30px 20px;
+  }
+}
+
+@media (max-width: 850px) {
+  .review {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 500px) {
+  .review {
+    padding: 20px;
+  }
+}

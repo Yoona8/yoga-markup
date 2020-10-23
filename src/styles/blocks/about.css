@@ -8,7 +8,7 @@
   content: '';
   position: absolute;
   top: 28%;
-  left: 35%;
+  right: 51%;
   width: 160px;
   height: 160px;
   background-image:
@@ -117,6 +117,7 @@
 .about__image {
   position: relative;
   margin: 0;
+  justify-self: end;
 }
 
 .about__image img {
@@ -124,4 +125,52 @@
   width: 855px;
   max-width: unset;
   margin-left: -100px;
+}
+
+@media (max-width: 1200px) {
+  .about::before {
+    top: 24%;
+    right: 46%;
+  }
+
+  .about__image img {
+    margin-left: 0;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .about::before {
+    top: 20%;
+    right: 42%;
+  }
+  .about__content {
+    width: 380px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .about::before {
+    top: 20%;
+    right: 38%;
+  }
+}
+
+@media (max-width: 900px) {
+  .about {
+    display: block;
+  }
+
+  .about__content {
+    width: auto;
+  }
+
+  .about::before {
+    content: unset;
+  }
+
+  .about__image {
+    max-width: 500px;
+    margin: 0 auto;
+  }
 }
