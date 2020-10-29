@@ -13,51 +13,60 @@
     radial-gradient(
       9px 9px,
       var(--light-green) 100%,
-      var(--basic-white) 100%
+      var(--basic-white) 100%,
+      var(--basic-white)
     ),
     radial-gradient(
       14px 14px,
       var(--basic-white) 7px,
       var(--light-green) 7px,
       var(--light-green) 100%,
-      var(--basic-white) 100%
+      var(--basic-white) 100%,
+      var(--basic-white)
     ),
     radial-gradient(
       9px 9px,
       var(--basic-white) 3px,
       var(--light-green) 3px,
       var(--light-green) 100%,
-      var(--basic-white) 100%
+      var(--basic-white) 100%,
+      var(--basic-white)
     ),
     radial-gradient(
       6px 6px,
       var(--basic-white) 100%,
-      var(--basic-white) 100%
+      var(--basic-white) 100%,
+      var(--basic-white)
     ),
     radial-gradient(
       6px 6px,
       var(--basic-white) 100%,
-      var(--basic-white) 100%
+      var(--basic-white) 100%,
+          var(--basic-white)
     ),
     radial-gradient(
       6px 6px,
       var(--light-green) 100%,
-      var(--basic-white) 100%
+      var(--basic-white) 100%,
+          var(--basic-white)
     ),
     radial-gradient(
       5px 5px,
       var(--light-green) 100%,
-      var(--basic-white) 100%
+      var(--basic-white) 100%,
+          var(--basic-white)
     ),
     radial-gradient(
       6px 6px,
       var(--light-green) 100%,
-      var(--basic-white) 100%
+      var(--basic-white) 100%,
+          var(--basic-white)
     ),
     radial-gradient(
       14px 14px,
       var(--light-green) 100%,
-      var(--basic-white) 100%
+      var(--basic-white) 100%,
+          var(--basic-white)
     );
   background-repeat:
     no-repeat,

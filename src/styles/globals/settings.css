@@ -27,7 +27,9 @@ body {
     100% 1300px at 3% 5%,
     var(--green),
     var(--green) 50%,
-    var(--basic-white) 50%);
+    var(--basic-white) 50%,
+    var(--basic-white)
+  );
   background-repeat: no-repeat;
 }
 
@@ -57,7 +59,9 @@ button {
       600px 580px at 4% 5%,
       var(--green),
       var(--green) 600px,
-      var(--basic-white) 600px);
+      var(--basic-white) 600px,
+      var(--basic-white)
+    );
   }
 }
 
@@ -67,7 +71,9 @@ button {
       500px 400px at 4% 5%,
       var(--green),
       var(--green) 600px,
-      var(--basic-white) 600px);
+      var(--basic-white) 600px,
+      var(--basic-white)
+    );
   }
 }
 
