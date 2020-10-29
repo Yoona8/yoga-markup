@@ -6,7 +6,7 @@
   "scripts": {
     "start": "browser-sync start --server 'src' --no-notify --no-ui --cwd 'src' --files '*.html,styles/**/*'",
     "test": "editorconfig-checker --exclude '.git|node_modules|.idea|.DS_Store'",
-    "styles": "postcss src/styles/style.css --use postcss-import --use postcss-csso --no-map --output docs/styles/style.css",
+    "styles": "npx postcss src/styles/style.css --use postcss-import --use autoprefixer --use postcss-csso --no-map --output docs/styles/style.css",
     "html": "html-minifier --remove-comments --input-dir src --output-dir docs --file-ext html",
     "assets": "cp -R src/assets/. docs/assets",
     "scripts": "cp -R src/scripts/. docs/scripts",
@@ -23,11 +23,18 @@
     "url": "https://github.com/Yoona8/starter-npm-scripts/issues"
   },
   "homepage": "https://github.com/Yoona8/starter-npm-scripts#readme",
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "not IE_Mob 11",
+    "maintained node versions"
+  ],
   "devDependencies": {
+    "autoprefixer": "^9.8.6",
     "browser-sync": "^2.26.12",
     "editorconfig-checker": "^3.1.0",
     "html-minifier": "^4.0.0",
-    "postcss-cli": "^7.1.2",
+    "postcss-cli": "^8.1.0",
     "postcss-csso": "^4.0.0",
     "postcss-import": "^12.0.1"
   }
